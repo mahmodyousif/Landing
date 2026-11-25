@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>شمس المعرفة</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- أيقونات Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+  >
+</head>
+
+<body>
+
+  <!-- الهيدر -->
+  <header class="desktop-header">
+
+    <!-- نافبار الكمبيوتر -->
+    <div class="nav-container">
+      <a class="logo" href="#" aria-label="الصفحة الرئيسية">
+        <img src="pic.png" alt="شعار منصة شمس المعرفة">
+      </a>
+
+      <nav class="desktop-nav">
+        <a class="active" href="#">
+          <i class="fa-solid fa-house"></i>
+          <span>الرئيسية</span>
+        </a>
+
+        <a href="#courses">
+          <i class="fa-solid fa-book-open-reader"></i>
+          <span>الكورسات</span>
+        </a>
+
+        <a href="#paths">
+          <i class="fa-solid fa-route"></i>
+          <span>المسارات</span>
+        </a>
+
+        <a href="#account">
+          <i class="fa-solid fa-user"></i>
+          <span>حسابي</span>
+        </a>
+      </nav>
+
+      <input type="search" placeholder="ابحث عن كورس" aria-label="ابحث عن كورس">
+
+      <a class="login-button" href="#login">تسجيل الدخول</a>
+    </div>
+
+    <!-- الهيدر المختصر للهاتف -->
+    <div class="mobile-header">
+      <a class="logo" href="#" aria-label="الصفحة الرئيسية">
+        <img src="pic.png" alt="شعار منصة شمس المعرفة">
+      </a>
+
+      <button class="search-button" type="button" aria-label="بحث">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- قسم الواجهة الرئيسية -->
+    <section class="hero">
+      <img src="pic4.png" alt="طالبة تتعلم من المنزل">
+
+      <div class="hero-content">
+        <h1>تعلم مهارات المستقبل وابنِ مستقبلك اليوم</h1>
+
+        <p>
+          منصة شمس المعرفة تقدم لك مجموعة من الكورسات العملية في البرمجة
+          والتصميم والتقنيات الحديثة مع مدربين خبراء.
+        </p>
+
+        <div class="hero-buttons">
+          <a class="hero-button primary-button" href="#courses">
+            استعراض الكورسات
+          </a>
+
+          <a class="hero-button secondary-button" href="#paths">
+            ابدأ الآن
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- قسم أحدث الكورسات -->
+    <section class="courses" id="courses">
+      <h2 class="section-title">أحدث الكورسات</h2>
+
+      <div class="courses-container">
+
+        <article class="course-card">
+          <img src="course 1.png" alt="تصميم واجهات المستخدم">
+
+          <div class="course-info">
+            <span class="course-category">تصميم</span>
+            <h3>تصميم واجهات المستخدم</h3>
+            <p>تعلّمي تصميم واجهات سهلة باستخدام مبادئ UI/UX.</p>
+
+            <div class="course-details">
+              <span>⏱ 8 ساعات</span>
+              <span>📚 12 درسًا</span>
+              <span>مبتدئ</span>
+            </div>
+
+            <a href="#" class="course-button">عرض الكورس</a>
+          </div>
+        </article>
+
+        <article class="course-card">
+          <img src="course2.jpg" alt="تعلم HTML وCSS">
+
+          <div class="course-info">
+            <span class="course-category">برمجة</span>
+            <h3>تعلم HTML وCSS من البداية</h3>
+            <p>أنشئي صفحات ويب مرتبة ومتجاوبة خطوة بخطوة.</p>
+
+            <div class="course-details">
+              <span>⏱ 10 ساعات</span>
+              <span>📚 15 درسًا</span>
+              <span>مبتدئ</span>
+            </div>
+
+            <a href="#" class="course-button">عرض الكورس</a>
+          </div>
+        </article>
+
+        <article class="course-card">
+          <img src="course3.png" alt="مدخل إلى JavaScript">
+
+          <div class="course-info">
+            <span class="course-category">برمجة</span>
+            <h3>مدخل إلى JavaScript</h3>
+            <p>تعلّمي إضافة التفاعل والحركة إلى صفحات الويب.</p>
+
+            <div class="course-details">
+              <span>⏱ 12 ساعة</span>
+              <span>📚 18 درسًا</span>
+              <span>متوسط</span>
+            </div>
+
+            <a href="#" class="course-button">عرض الكورس</a>
+          </div>
+        </article>
+
+        <article class="course-card">
+          <img src="course4.jpg" alt="مدخل إلى لغة Java">
+
+          <div class="course-info">
+            <span class="course-category">برمجة</span>
+            <h3>مدخل إلى Java</h3>
+            <p>تعلّمي أساسيات لغة Java واكتبي برامجك الأولى خطوة بخطوة.</p>
+
+            <div class="course-details">
+              <span>⏱ 12 ساعة</span>
+              <span>📚 18 درسًا</span>
+              <span>متوسط</span>
+            </div>
+
+            <a href="#" class="course-button">عرض الكورس</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- قسم المسارات -->
+    <section class="paths" id="paths">
+      <h2 class="section-title">مسارات تعلم مخصصة لك</h2>
+
+      <div class="paths-container">
+
+        <article class="path-card">
+          <i class="fa-solid fa-laptop-code path-icon"></i>
+          <h3>تطوير الويب</h3>
+          <p>من الصفر حتى الاحتراف في الواجهات الأمامية والخلفية.</p>
+        </article>
+
+        <article class="path-card">
+          <i class="fa-solid fa-palette path-icon"></i>
+          <h3>التصميم الرقمي</h3>
+          <p>تعلم واجهات المستخدم وتصميم الجرافيك التجاري.</p>
+        </article>
+
+        <article class="path-card">
+          <i class="fa-solid fa-mobile-screen path-icon"></i>
+          <h3>تطبيقات الجوال</h3>
+          <p>تطوير تطبيقات الهواتف الذكية لأنظمة أندرويد وiOS.</p>
+        </article>
+
+        <article class="path-card">
+          <i class="fa-solid fa-brain path-icon"></i>
+          <h3>الذكاء الاصطناعي</h3>
+          <p>أساسيات علم البيانات وتحليل البيانات والتعلم الآلي.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- قسم آراء الطلاب -->
+    <section class="testimonials" id="reviews">
+      <h2 class="section-title">ماذا يقول طلابنا؟</h2>
+
+      <div class="testimonials-container">
+
+        <article class="testimonial-card">
+          <div class="stars" aria-label="تقييم خمس نجوم">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+
+          <p>
+            "المنصة ساعدتني كثيرًا في فهم البرمجة بطريقة عملية ومبسطة جدًا،
+            أنصح الجميع بالاشتراك."
+          </p>
+
+          <div class="student-info">
+            <img src="woman.png" alt="صورة الطالبة سارة">
+
+            <div>
+              <h3>سارة أحمد</h3>
+              <span>مطورة واجهات أمامية</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="testimonial-card">
+          <div class="stars" aria-label="تقييم خمس نجوم">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+
+          <p>
+            "الشرح ممتاز والمشاريع العملية فريدة من نوعها، استطعت الحصول
+            على وظيفة بعد الانتهاء من المسار."
+          </p>
+
+          <div class="student-info">
+            <img src="man.png" alt="صورة الطالب محمد">
+
+            <div>
+              <h3>محمد خالد</h3>
+              <span>مصمم UI/UX</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- الفوتر -->
+  <footer class="footer">
+    <div class="footer-container">
+      <img src="pic.png" alt="شعار منصة شمس المعرفة">
+
+      <p>
+        منصة تعليمية تهدف إلى نشر المعرفة التقنية وتمكين الشباب العربي
+        من مهارات المستقبل.
+      </p>
+
+      <span>جميع الحقوق محفوظة © 2026 شمس المعرفة</span>
+    </div>
+  </footer>
+
+  <!-- شريط التنقل السفلي للهاتف -->
+  <nav class="bottom-nav" aria-label="التنقل الرئيسي">
+
+    <a class="active" href="#">
+      <i class="fa-solid fa-house"></i>
+      <span>الرئيسية</span>
+    </a>
+
+    <a href="#courses">
+      <i class="fa-solid fa-book-open-reader"></i>
+      <span>الكورسات</span>
+    </a>
+
+    <a href="#paths">
+      <i class="fa-solid fa-route"></i>
+      <span>المسارات</span>
+    </a>
+
+    <a href="#blog">
+      <i class="fa-solid fa-pen-to-square"></i>
+      <span>المدونة</span>
+    </a>
+
+    <a href="#account">
+      <i class="fa-solid fa-user"></i>
+      <span>حسابي</span>
+    </a>
+
+  </nav>
+
+</body>
+</html>
